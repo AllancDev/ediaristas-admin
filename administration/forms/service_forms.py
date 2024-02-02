@@ -1,5 +1,5 @@
 from django import forms
-from .models import Service
+from ..models import Service
 from django.forms import widgets
 from decimal import Decimal
 

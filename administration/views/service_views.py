@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
-from .forms import ServiceForm
-from .models import Service
+from ..forms.service_forms import ServiceForm
+from ..models import Service
 
 # Create your views here.
 def register_service(request):
